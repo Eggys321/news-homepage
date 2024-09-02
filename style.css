@@ -28,3 +28,58 @@ ul{
 .hamburger-close{
   margin: 1rem 0 0 20rem;
 }
+
+.div-1-h1{
+  font-weight: 800;
+  font-size: 50px;
+  max-width: 40%;
+}
+.div-1-ii{
+  padding: 10px;
+}
+.div-1-p{
+  font-size: 17px;
+  line-height: 2rem;
+  width: 93%;
+  color: var(--dark-grayish-blue);
+}
+
+button{
+  background-color: var(--soft-red);
+  height: 50px;
+  width: 200px;
+  border: none;
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: var(--very-dark-blue);
+
+}
+
+/* div-2 */
+h3{
+  color: var(--off-white);
+}
+.div-2{
+  background-color: var(--very-dark-blue);
+  padding: 20px;
+}
+
+.div-2 > h1{
+  color: var(--soft-orange);
+  font-weight: 600;
+}
+
+.div-2  p, hr{
+  color: var(--grayish-blue);
+  font-size: 15px;
+}
+
+
+
+
+@media(max-width:575px){
+  .div-1-h1{
+    max-width: 100%;
+  }
+}
